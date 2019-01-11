@@ -151,6 +151,13 @@ public with sharing class CustomMetadataUploadController {
             return false;
         }
         
+<<<<<<< HEAD
+=======
+        System.debug(selectedType);
+        
+        
+        
+>>>>>>> multiple fixes on errors
         Set<String> fieldApiNames = new Set<String>(standardFieldsInHeader);
         nonSortedApiNames = new List<String>(standardFieldsInHeader);
         
